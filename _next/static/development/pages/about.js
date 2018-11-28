@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/404.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/about.js"],{
 
 /***/ "./node_modules/@babel/runtime/regenerator/index.js":
 /*!**********************************************************!*\
@@ -838,10 +838,10 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/404.js":
-/*!**********************!*\
-  !*** ./pages/404.js ***!
-  \**********************/
+/***/ "./pages/about.js":
+/*!************************!*\
+  !*** ./pages/about.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -853,7 +853,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "/home/ubuntu/workspace/next/pages/404.js";
+var _jsxFileName = "/home/ubuntu/workspace/next/pages/about.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -906,18 +906,18 @@ function (_Component) {
           lineNumber: 15
         },
         __self: this
-      }, "Not Found Page"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+      }, "About us"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
-      }, "This page does not found..."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+      }, "Notice how a loading spinner showed up while my content was \"loading\"? Pretty neat, huh?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         href: "javascript:history.back()",
         className: "btn btn-light",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 20
         },
         __self: this
       }, "Go back"));
@@ -969,21 +969,21 @@ function (_Component) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/404")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/about")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 5:
-/*!****************************!*\
-  !*** multi ./pages/404.js ***!
-  \****************************/
+/***/ 6:
+/*!******************************!*\
+  !*** multi ./pages/about.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/404', function() {
-module.exports = __webpack_require__(/*! ./pages/404.js */"./pages/404.js");
+__NEXT_REGISTER_PAGE('/about', function() {
+module.exports = __webpack_require__(/*! ./pages/about.js */"./pages/about.js");
 
 return { page: module.exports.default }});
 
@@ -1000,5 +1000,5 @@ module.exports = dll_f49a1815654d945b7ea6;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=404.js.map
+},[[6,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=about.js.map

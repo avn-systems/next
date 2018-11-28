@@ -19027,7 +19027,7 @@ var _jsxFileName = "/home/ubuntu/workspace/next/pages/post.js";
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!*****************************!*\
   !*** multi ./pages/post.js ***!
   \*****************************/
@@ -19052,5 +19052,5 @@ module.exports = dll_f49a1815654d945b7ea6;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[5,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=post.js.map

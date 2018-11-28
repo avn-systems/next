@@ -10698,6 +10698,17 @@ function (_App) {
   }
 
   _createClass(MyApp, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register("/service-worker.js").then(function (registration) {
+          console.log('service worker registration successful');
+        }).catch(function (err) {
+          console.warn('service worker registration failed', err.message);
+        });
+      }
+    }
+  }, {
     key: "render",
     value: function render() {
       var _this$props = this.props,
@@ -10706,7 +10717,7 @@ function (_App) {
       return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_app__WEBPACK_IMPORTED_MODULE_2__["Container"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 44
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -10715,7 +10726,7 @@ function (_App) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 45
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -10723,14 +10734,14 @@ function (_App) {
         as: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 46
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         style: linkStyle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 46
         },
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -10738,14 +10749,14 @@ function (_App) {
         as: "/about",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 47
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         style: linkStyle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 47
         },
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -10753,14 +10764,14 @@ function (_App) {
         as: "/tvmaze",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 48
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         style: linkStyle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 48
         },
         __self: this
       }, "TV Maze")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -10768,20 +10779,20 @@ function (_App) {
         as: "/404",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 49
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
         style: linkStyle,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 49
         },
         __self: this
       }, "404"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Component, _extends({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 52
         },
         __self: this
       })));
