@@ -898,7 +898,7 @@ var TvPost = function TvPost(props) {
       lineNumber: 4
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -1004,7 +1004,7 @@ function () {
 
 /***/ }),
 
-/***/ 3:
+/***/ 7:
 /*!*******************************!*\
   !*** multi ./pages/tvpost.js ***!
   \*******************************/
@@ -1029,5 +1029,5 @@ module.exports = dll_f49a1815654d945b7ea6;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[7,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=tvpost.js.map
