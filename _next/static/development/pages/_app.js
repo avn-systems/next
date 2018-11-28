@@ -10720,6 +10720,7 @@ function (_App) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
         href: "/",
+        as: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
@@ -10734,6 +10735,7 @@ function (_App) {
         __self: this
       }, "Home")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
         href: "/about",
+        as: "/about",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
@@ -10748,6 +10750,7 @@ function (_App) {
         __self: this
       }, "About")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
         href: "/tvmaze",
+        as: "/tvmaze",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 35
@@ -10762,6 +10765,7 @@ function (_App) {
         __self: this
       }, "TV Maze")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_5___default.a, {
         href: "/404",
+        as: "/404",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 36
