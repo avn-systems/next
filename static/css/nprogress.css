@@ -64,3 +64,19 @@
   0%   { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+@-webkit-keyframes gradtranslate {
+    0%   { background-position: left bottom; }
+    100% { background-position: -400px bottom; }
+}
+@-moz-keyframes gradtranslate {
+    0%   { background-position: left bottom; }
+    100% { background-position: -400px bottom; }
+}
+@-o-keyframes gradtranslate {
+    0%   { background-position: left bottom; }
+    100% { background-position: -400px bottom; }
+}
+@keyframes gradtranslate {
+    0%   { background-position: left bottom; }
+    100% { background-position: -400px bottom; }
+}
