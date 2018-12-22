@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_error.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/avnsystems/criptocurrency.js"],{
 
 /***/ "./comum/imagewithloader.js":
 /*!**********************************!*\
@@ -11912,130 +11912,162 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/_error.js":
-/*!*************************!*\
-  !*** ./pages/_error.js ***!
-  \*************************/
+/***/ "./pages/avnsystems/criptocurrency.js":
+/*!********************************************!*\
+  !*** ./pages/avnsystems/criptocurrency.js ***!
+  \********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Error; });
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _avnsystems_interface_menuitems__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./avnsystems/interface/menuitems */ "./pages/avnsystems/interface/menuitems.js");
-/* harmony import */ var _avnsystems_template_1__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./avnsystems/template-1 */ "./pages/avnsystems/template-1.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/ubuntu/workspace/estudo/next/pages/_error.js";
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _template_1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./template-1 */ "./pages/avnsystems/template-1.js");
+var _jsxFileName = "/home/ubuntu/workspace/estudo/next/pages/avnsystems/criptocurrency.js";
 
 
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-
-
-
-
-var Error =
-/*#__PURE__*/
-function (_React$Component) {
-  _inherits(Error, _React$Component);
-
-  function Error() {
-    _classCallCheck(this, Error);
-
-    return _possibleConstructorReturn(this, _getPrototypeOf(Error).apply(this, arguments));
-  }
-
-  _createClass(Error, [{
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_avnsystems_template_1__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("left", {
-        className: "jsx-3331792077",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h3", {
-        className: "jsx-3331792077",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, "This page get some error, please contact the support."), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("h6", {
-        className: "jsx-3331792077",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, "ERROR"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("p", {
-        className: "jsx-3331792077",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }, this.props.statusCode ? "An error ".concat(this.props.statusCode, " occurred on server") : 'An error occurred on client')), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("right", {
-        className: "jsx-3331792077",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_avnsystems_interface_menuitems__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-        styleId: "3331792077",
-        css: "left.jsx-3331792077{border-bottom:2px solid #ccc;padding:30px 40px;background:#fff;display:block;height:100%;float:left;width:70%;}left.jsx-3331792077 h3.jsx-3331792077{margin-bottom:20px;-webkit-letter-spacing:3px;-moz-letter-spacing:3px;-ms-letter-spacing:3px;letter-spacing:3px;font-weight:700;font-size:1em;color:#8500FF;}left.jsx-3331792077 h6.jsx-3331792077{margin-bottom:20px;font-size:2.5em;color:#7236d6;}left.jsx-3331792077 p.jsx-3331792077{line-height:1.4em;text-align:justify;color:#4d4d4d;}left.jsx-3331792077 p.jsx-3331792077 a.jsx-3331792077{-webkit-text-decoration:none;text-decoration:none;color:#8500FF;}left.jsx-3331792077 p.jsx-3331792077 a.jsx-3331792077:hover{color:#bc74ff;}right.jsx-3331792077{padding:20px 30px 20px 60px;display:block;float:right;width:30%;}@media (max-width:945px){right.jsx-3331792077{padding:20px 0px 20px 30px;}}@media (max-width:768px){left.jsx-3331792077{padding:20px;}}@media (max-width:625px){left.jsx-3331792077{padding:20px 10px;width:100%;}right.jsx-3331792077{display:none;}}@media (max-width:425px){left.jsx-3331792077 h3.jsx-3331792077{font-size:1.3em;}left.jsx-3331792077 h6.jsx-3331792077{font-size:2em;}}@media (max-width:375px){left.jsx-3331792077 h3.jsx-3331792077{font-size:0.9em;}left.jsx-3331792077 h6.jsx-3331792077{font-size:1.5em;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3VidW50dS93b3Jrc3BhY2UvZXN0dWRvL25leHQvcGFnZXMvX2Vycm9yLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTJCb0IsQUFHMEMsQUFTVixBQU9BLEFBS0QsQUFLRyxBQUlQLEFBR2MsQUFPQyxBQUtkLEFBS0ssQUFJTCxBQUtHLEFBR0YsQUFLRSxBQUdBLGFBeEJsQixBQVNBLENBeEJGLEFBZ0NFLEVBSEEsQUFRQSxBQUdBLEVBakRtQixBQTZCTixDQXpDTSxBQU9ILFFBd0JoQixDQVBjLENBakNJLEFBbURsQixNQWxDYyxFQUtBLEtBWUYsS0FqQ0ksRUFpQmxCLENBUWdCLENBSGhCLEdBWVksU0FqQ0ksQ0F5QmhCLEFBU0EsYUFqQ2MsWUFDRCxXQUNELFVBQ1osRUFJa0IsZ0JBQ0YsY0FDQSxjQUNoQiIsImZpbGUiOiIvaG9tZS91YnVudHUvd29ya3NwYWNlL2VzdHVkby9uZXh0L3BhZ2VzL19lcnJvci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBNZW51SXRlbXMgZnJvbSAnLi9hdm5zeXN0ZW1zL2ludGVyZmFjZS9tZW51aXRlbXMnXG5pbXBvcnQgVGVtcGxhdGUgZnJvbSAnLi9hdm5zeXN0ZW1zL3RlbXBsYXRlLTEnXG5cbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCdcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgRXJyb3IgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICBzdGF0aWMgZ2V0SW5pdGlhbFByb3BzKHsgcmVzLCBlcnIgfSkge1xuICAgIGNvbnN0IHN0YXR1c0NvZGUgPSByZXMgPyByZXMuc3RhdHVzQ29kZSA6IGVyciA/IGVyci5zdGF0dXNDb2RlIDogbnVsbDtcbiAgICByZXR1cm4geyBzdGF0dXNDb2RlIH1cbiAgfVxuXG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPFRlbXBsYXRlPlxuICAgICAgICA8bGVmdD5cbiAgICAgICAgICA8aDM+VGhpcyBwYWdlIGdldCBzb21lIGVycm9yLCBwbGVhc2UgY29udGFjdCB0aGUgc3VwcG9ydC48L2gzPlxuICAgICAgICAgIDxoNj5FUlJPUjwvaDY+XG4gICAgICAgICAgPHA+XG4gICAgICAgICAgICB7dGhpcy5wcm9wcy5zdGF0dXNDb2RlXG4gICAgICAgICAgICAgID8gYEFuIGVycm9yICR7dGhpcy5wcm9wcy5zdGF0dXNDb2RlfSBvY2N1cnJlZCBvbiBzZXJ2ZXJgXG4gICAgICAgICAgICAgIDogJ0FuIGVycm9yIG9jY3VycmVkIG9uIGNsaWVudCd9XG4gICAgICAgICAgPC9wPlxuICAgICAgICA8L2xlZnQ+XG4gICAgICAgIDxyaWdodD5cbiAgICAgICAgICA8TWVudUl0ZW1zIC8+XG4gICAgICAgIDwvcmlnaHQ+XG4gICAgICAgIFxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgbGVmdCB7XG4gICAgICAgICAgICBib3JkZXItYm90dG9tOiAycHggc29saWQgI2NjYztcbiAgICAgICAgICAgIHBhZGRpbmc6IDMwcHggNDBweDtcbiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNmZmY7XG4gICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcbiAgICAgICAgICAgIGZsb2F0OiBsZWZ0O1xuICAgICAgICAgICAgd2lkdGg6IDcwJTtcbiAgICAgICAgICB9XG4gICAgICAgICAgbGVmdCBoMyB7XG4gICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xuICAgICAgICAgICAgbGV0dGVyLXNwYWNpbmc6IDNweDtcbiAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA3MDA7XG4gICAgICAgICAgICBmb250LXNpemU6IDFlbTtcbiAgICAgICAgICAgIGNvbG9yOiAjODUwMEZGO1xuICAgICAgICAgIH1cbiAgICAgICAgICBsZWZ0IGg2IHtcbiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XG4gICAgICAgICAgICBmb250LXNpemU6IDIuNWVtO1xuICAgICAgICAgICAgY29sb3I6ICM3MjM2ZDY7XG4gICAgICAgICAgfVxuICAgICAgICAgIGxlZnQgcCB7XG4gICAgICAgICAgICBsaW5lLWhlaWdodDogMS40ZW07XG4gICAgICAgICAgICB0ZXh0LWFsaWduOiBqdXN0aWZ5O1xuICAgICAgICAgICAgY29sb3I6ICM0ZDRkNGQ7XG4gICAgICAgICAgfVxuICAgICAgICAgIGxlZnQgcCBhIHtcbiAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgIGNvbG9yOiAjODUwMEZGO1xuICAgICAgICAgIH1cbiAgICAgICAgICBsZWZ0IHAgYTpob3ZlciB7XG4gICAgICAgICAgICBjb2xvcjogI2JjNzRmZjtcbiAgICAgICAgICB9XG4gICAgICAgICAgcmlnaHQge1xuICAgICAgICAgICAgcGFkZGluZzogMjBweCAzMHB4IDIwcHggNjBweDtcbiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrO1xuICAgICAgICAgICAgZmxvYXQ6IHJpZ2h0O1xuICAgICAgICAgICAgd2lkdGg6IDMwJTtcbiAgICAgICAgICB9XG4gICAgICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDk0NXB4KSB7XG4gICAgICAgICAgICByaWdodCB7XG4gICAgICAgICAgICAgIHBhZGRpbmc6IDIwcHggMHB4IDIwcHggMzBweDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG4gICAgICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7XG4gICAgICAgICAgICBsZWZ0IHtcbiAgICAgICAgICAgICAgcGFkZGluZzogMjBweDtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG4gICAgICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDYyNXB4KSB7XG4gICAgICAgICAgICBsZWZ0IHtcbiAgICAgICAgICAgICAgcGFkZGluZzogMjBweCAxMHB4O1xuICAgICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIHJpZ2h0IHtcbiAgICAgICAgICAgICAgZGlzcGxheTogbm9uZTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG4gICAgICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDQyNXB4KSB7XG4gICAgICAgICAgICBsZWZ0IGgzIHtcbiAgICAgICAgICAgICAgZm9udC1zaXplOiAxLjNlbTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGxlZnQgaDYge1xuICAgICAgICAgICAgICBmb250LXNpemU6IDJlbTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICB9XG4gICAgICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDM3NXB4KSB7XG4gICAgICAgICAgICBsZWZ0IGgzIHtcbiAgICAgICAgICAgICAgZm9udC1zaXplOiAwLjllbTtcbiAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGxlZnQgaDYge1xuICAgICAgICAgICAgICBmb250LXNpemU6IDEuNWVtO1xuICAgICAgICAgICAgfVxuICAgICAgICAgIH1cbiAgICAgICAgYH08L3N0eWxlPlxuICAgICAgICBcbiAgICAgIDwvVGVtcGxhdGU+XG4gICAgKVxuICB9XG59Il19 */\n/*@ sourceURL=/home/ubuntu/workspace/estudo/next/pages/_error.js */",
-        __self: this
-      }));
-    }
-  }], [{
-    key: "getInitialProps",
-    value: function getInitialProps(_ref) {
-      var res = _ref.res,
-          err = _ref.err;
-      var statusCode = res ? res.statusCode : err ? err.statusCode : null;
-      return {
-        statusCode: statusCode
-      };
-    }
-  }]);
-
-  return Error;
-}(react__WEBPACK_IMPORTED_MODULE_3___default.a.Component);
-
-
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_template_1__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    pageTitle: "AVN SYSTEMS | Cryptocurrency",
+    title: "SOLUTIONS AND SERVICES",
+    h3: "CRYPTOCURRENCY, TOKENS, SMART CONTRACTS, ICO",
+    h6: "CRYPTOCURRENCY",
+    images: [{
+      alt: "Ethereum",
+      href: "https://ethereum.org/",
+      target: "_blank",
+      img: "/static/images/services/ethereum.jpg"
+    }, {
+      alt: "Decent",
+      href: "https://decent.ch",
+      target: "_blank",
+      img: "/static/images/services/decent-ch.jpg"
+    }, {
+      alt: "IPFS",
+      href: "https://ipfs.io/",
+      target: "_blank",
+      img: "/static/images/services/ipfs.jpg"
+    }, {
+      alt: "Blockstack",
+      href: "https://blockstack.org/",
+      target: "_blank",
+      img: "/static/images/services/blockstack.jpg"
+    }],
+    menuSelected: "CRYPTOCURRENCY",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "We created the ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "cryptocurrency"), " department with the purpose of modernizing the ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "payment"), " methods and exchange of digital values. Creating innovative solutions around the concept and technology of ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.blockchain.com/about/index.html",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Blockchain"), ". Developing currencies and / or digital tokens for projects and companies wishing to integrate with ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.blockchain.com/about/index.html",
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Blockchain"), ", open virtual capital or crowdfunding."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "Key solutions we offer:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Consulting in the development of cryptocurrencies and / or digital tokens.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Consulting and development of integrated applications with public and private Blockchains.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Development of all technical documents required to launch ICO's.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Consulting and development of marketing and advertising campaigns to understand and adhere to the use of currencies.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "Integrated mobile systems and applications that list and manage all cryptocurrencies and tokens developed for our customers."))));
+});
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -12052,9 +12084,9 @@ function (_React$Component) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/_error")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/avnsystems/criptocurrency")
   
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
@@ -14304,15 +14336,15 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 1:
-/*!*******************************!*\
-  !*** multi ./pages/_error.js ***!
-  \*******************************/
+/***/ 4:
+/*!**************************************************!*\
+  !*** multi ./pages/avnsystems/criptocurrency.js ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/_error', function() {
-module.exports = __webpack_require__(/*! ./pages/_error.js */"./pages/_error.js");
+__NEXT_REGISTER_PAGE('/avnsystems/criptocurrency', function() {
+module.exports = __webpack_require__(/*! ./pages/avnsystems/criptocurrency.js */"./pages/avnsystems/criptocurrency.js");
 
 return { page: module.exports.default }});
 
@@ -14329,5 +14361,5 @@ module.exports = dll_f49a1815654d945b7ea6;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=_error.js.map
+},[[4,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=criptocurrency.js.map
